@@ -1,8 +1,68 @@
-.header__box{
-    
-    width: 100%;
-    height: 100px;
+.header__style{
 
-    border: 1px solid red;
-    background-color: gray;
+// position: fixed;
+
+    width: 100%;
+    height: auto;
+
+    background-color: rgba(128, 128, 128, 0.5);
+    background-image: url("../../gazogenerators/img/Backgrounds_The_Karakul_fur_090897_.png");
+    background-size:contain;
+    background-repeat: repeat;
+
+} 
+
+
+
+  
+.header__box{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+    width: auto;
+    height:auto;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 0;
+
+    
+
+}
+
+
+.logo__box{
+
+    width: 50px;
+    height: 50px;
+
+    border: 1px solid white;
+    border-radius: 4px;
+
+    margin-right: 10px;
+
+    background-image: url("../../gazogenerators/img/Plamya.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+
+
+   
+}
+
+.logo__box:first-child{
+margin-left: 10px;
+}
+
+.header__text{
+  
+margin-right: 10px;
+
+}
+.logo-text{
+font-family: 'Gill Sans';
+font-size: 30px;
+
 }
