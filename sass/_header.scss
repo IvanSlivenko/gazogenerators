@@ -37,12 +37,12 @@
 .logo__box{
 
     width: 50px;
-    height: 50px;
+   height: 50px;
 
     border: 1px solid white;
     border-radius: 4px;
 
-    margin-right: 10px;
+    // margin-right: 10px;
 
     background-image: url("../../gazogenerators/img/Plamya.png");
     background-size:cover;
@@ -53,16 +53,25 @@
 }
 
 .logo__box:first-child{
-margin-left: 10px;
+margin-right: 20px;
+}
+.logo__box:last-child {
+    margin-left: 20px;
 }
 
 .header__text{
   
-margin-right: 10px;
+// margin-right: 10px;
+text-align: center;
 
 }
 .logo-text{
 font-family: 'Gill Sans';
 font-size: 30px;
+
+@media screen and (max-width: 400px) {
+font-size: 15px;
+}
+
 
 }
