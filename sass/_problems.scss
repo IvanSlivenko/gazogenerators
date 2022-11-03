@@ -1,9 +1,16 @@
 .problems-title{
+    font-family: 'Gill Sans';
     text-align: center;
-    font-size: 35px;
+    font-size: 30px;
 
     margin: 0;
     padding: 0;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+   
+
 
     @media screen and (max-width: 400px) {
             font-size: 15px;

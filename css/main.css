@@ -273,9 +273,10 @@ summary {
   width: 100%;
   height: auto;
   background-color: rgba(128, 128, 128, 0.5);
-  background-image: url("../../gazogenerators/img/Backgrounds_The_Karakul_fur_090897_.png");
+  background-image: url("../../gazogenerators/img/blac-wood.jpg");
   background-size: contain;
   background-repeat: repeat;
+  border-bottom: 2px solid white;
 }
 
 .header__box {
@@ -355,10 +356,13 @@ summary {
 }
 
 .problems-title {
+  font-family: "Gill Sans";
   text-align: center;
-  font-size: 35px;
+  font-size: 30px;
   margin: 0;
   padding: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 @media screen and (max-width: 400px) {
   .problems-title {
@@ -429,6 +433,7 @@ summary {
 }
 
 .decision-master-title {
+  font-family: "Gill Sans";
   text-align: center;
   font-weight: 400;
   font-size: 25px;
@@ -440,6 +445,7 @@ summary {
 }
 
 .decision-title {
+  font-family: "Gill Sans";
   text-align: justify;
   font-weight: 300;
   font-size: 25px;
@@ -502,6 +508,7 @@ summary {
 }
 
 .recours-master-title {
+  font-family: "Gill Sans";
   text-align: center;
   font-weight: 400;
   font-size: 25px;
@@ -513,6 +520,7 @@ summary {
 }
 
 .recours-title {
+  font-family: "Gill Sans";
   text-align: start;
   font-weight: 300;
   font-size: 25px;
