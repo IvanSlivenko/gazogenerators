@@ -299,18 +299,28 @@ summary {
 .logo__box {
   width: 50px;
   height: 50px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   border: 1px solid white;
   border-radius: 4px;
   background-image: url("../../gazogenerators/img/Plamya.png");
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
+@media screen and (max-width: 500px) {
+  .logo__box {
+    height: 60px;
+  }
+}
 
 .logo__box:first-child {
+  margin-left: 10px;
   margin-right: 20px;
 }
 
 .logo__box:last-child {
+  margin-right: 10px;
   margin-left: 20px;
 }
 
@@ -385,6 +395,7 @@ summary {
   height: auto;
   margin: 0;
   padding: 0;
+  border-bottom: 2px solid white;
 }
 @media screen and (max-width: 400px) {
   .problems__list {
@@ -455,7 +466,7 @@ summary {
 }
 @media screen and (max-width: 400px) {
   .decision-title {
-    font-size: 10px;
+    font-size: 12px;
   }
 }
 @media screen and (min-width: 400px) {
@@ -486,6 +497,7 @@ summary {
 .decision__list {
   margin: 0;
   padding: 0;
+  padding-bottom: 5px;
   list-style: none;
   margin-top: 10px;
   padding-left: 5px;
@@ -499,6 +511,7 @@ summary {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  border-bottom: 2px solid white;
 }
 
 .decision-img {
@@ -558,7 +571,6 @@ summary {
 }
 
 .recours__list-item {
-  margin-right: 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -569,14 +581,18 @@ summary {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  width: calc(100% - 30px)/3;
+  height: auto;
+  margin: 5px;
 }
-
-.recours__list-item:last-child {
-  margin-right: 0;
+@media screen and (max-width: 400px) {
+  .recours__list-item {
+    width: 200px;
+  }
 }
 
 .recours-img {
   display: block;
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }/*# sourceMappingURL=main.css.map */

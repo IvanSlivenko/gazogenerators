@@ -46,6 +46,7 @@
     align-items: flex-start;
     justify-content: center;
 
+    
 
 
 
@@ -53,20 +54,30 @@
 
 .recours__list-item{
    
-    margin-right: 5px;
+    
     display: flex;
     flex-direction: column;
     justify-content:center;
 
+    width: calc(100% - 6 * 5px) / 3;
+    @media screen and (max-width:400px) {
+        width: 200px;
+    }
+   
+    height: auto;
+
+    margin: 5px;
+
 }
 .recours__list-item:last-child{
-    margin-right: 0;
+    // margin-right: 0;
 }
 
 .recours-img {
     display: block;
 
-    width: 100%;
+    // width: 100%;
+    max-width: 100%;
     height: auto;
 
 }
